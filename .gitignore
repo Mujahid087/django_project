@@ -1,0 +1,30 @@
+# Ignore Python bytecode and cache  
+__pycache__/  
+*.pyc  
+*.pyo  
+*.pyd  
+
+# Ignore virtual environment  
+venv/  
+
+# Ignore Django-specific files  
+*.log  
+*.pot  
+*.pyc  
+*.swp  
+*.swo  
+.DS_Store  
+
+# Ignore media and static files  
+project/media/  
+project/staticfiles/  
+project/static/  
+
+# Ignore local settings and environment variables  
+project/.env  
+project/local_settings.py  
+
+# Ignore IDE/editor-specific files  
+.vscode/  
+.idea/  
+*.iml  
